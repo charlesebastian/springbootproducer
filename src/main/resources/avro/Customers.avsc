@@ -1,0 +1,32 @@
+{
+  "doc": "This is the Schema for Kafka Producer Customer Object.",
+  "fields": [
+    {
+      "name": "customerId",
+      "type": "string"
+    },
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    },
+    {
+      "name": "address",
+      "type": "string"
+    },
+    {
+      "name": "phone",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": "string"
+    }
+  ],
+  "name": "Customers",
+  "namespace": "com.kafka.springbootproducer",
+  "type": "record"
+}
